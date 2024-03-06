@@ -18,6 +18,7 @@
         :imgBackFaceUrl="`images/${card}.png`"
         :card="{ index, value: card }"
         :cardsContext="cardsContext"
+        :rules="rules"
         @onFlip="checkRule($event)"
       />
     </div>
